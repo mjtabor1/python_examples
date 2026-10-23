@@ -1,0 +1,56 @@
+[
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "pages": 310,
+    "genre": "Fantasy",
+    "status": "finished",
+    "rating": 5,
+    "date_added": "2026-09-01"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "pages": 412,
+    "genre": "Science Fiction",
+    "status": "reading",
+    "rating": null,
+    "date_added": "2026-09-15"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "pages": 320,
+    "genre": "Self-Help",
+    "status": "finished",
+    "rating": 4,
+    "date_added": "2026-08-20"
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "pages": 496,
+    "genre": "Science Fiction",
+    "status": "to-read",
+    "rating": null,
+    "date_added": "2026-10-01"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "pages": 544,
+    "genre": "Programming",
+    "status": "reading",
+    "rating": null,
+    "date_added": "2026-10-05"
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "pages": 369,
+    "genre": "Science Fiction",
+    "status": "finished",
+    "rating": 5,
+    "date_added": "2026-07-12"
+  }
+]
