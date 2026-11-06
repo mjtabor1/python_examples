@@ -1,0 +1,31 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build output (created by `pip install -e .`)
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Testing and tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local config
+.env
+.env.*
+
+# Editor / OS files
+.idea/
+.DS_Store
+Thumbs.db
