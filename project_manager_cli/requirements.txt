@@ -1,0 +1,3 @@
+rich>=13
+ollama>=0.4
+pytest>=8

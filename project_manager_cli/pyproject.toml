@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taskpilot"
+version = "0.1.0"
+description = "A teaching project: manage personal projects and tasks from the terminal."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13",
+    "ollama>=0.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+# This creates the `taskpilot` command when you run `pip install -e .`
+# "taskpilot.cli:main" means: in module taskpilot/cli.py, call the function main()
+[project.scripts]
+taskpilot = "taskpilot.cli:main"
+
+[tool.setuptools]
+packages = ["taskpilot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
