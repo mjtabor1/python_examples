@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Flask-SQLAlchemy puts SQLite files in instance/
+instance/
+*.db
+
+# Secrets (use .flaskenv for non-secret settings)
+.env
