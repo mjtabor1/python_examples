@@ -70,9 +70,8 @@ class TaskPilotCLI:
 # Argument parsing
 # ---------------------------------------------------------------------------
  
- 
 def parse_date(text: str) -> date:
-    """argparse `type=` function: turns '2026-11-20' into a date object.
+    """argparse `type= function: turns '2026-11-20' into a date object.
  
     LESSON: argparse calls this for us. Raising ArgumentTypeError makes
     argparse print a clean usage error instead of a traceback.
