@@ -7,8 +7,8 @@ When you add a new model file, import it here too.
 """
 
 from app.models.author import Author
-# from app.models.book import Book, book_genres
-# from app.models.genre import Genre
-# from app.models.review import Review
+from app.models.book import Book, book_genres
+from app.models.genre import Genre
+from app.models.review import Review
 
 __all__ = ["Author", "Book", "book_genres", "Genre", "Review"]
